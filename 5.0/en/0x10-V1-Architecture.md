@@ -32,7 +32,7 @@ When designing authentication systems, the strength of hardware-enabled multi-fa
 | **1.2.2** | [MODIFIED] Verify that communications between back-end application components, including APIs, middleware and data layers, are authenticated and use individual user accounts. | | ✓ | ✓ | 306 |
 | **1.2.3** | [MODIFIED] Verify that the application uses a single vetted user authentication mechanism that is known to be secure, can be extended to include strong authentication, and has sufficient logging and monitoring to detect account abuse or breaches. | | ✓ | ✓ | 306 |
 | **1.2.4** | [MODIFIED, SPLIT TO 2.2.11] Verify that, if the application includes multiple authentication pathways, these are all documented together with the security controls and authentication strength which should be consistently enforced across them. | | ✓ | ✓ | 306 |
-| **1.2.5** | [ADDED] Verify that a list of context specific words are documented in order to prevent their use in passwords. | | ✓ | ✓ | 521 |
+| **1.2.5** | [ADDED] Verify that a comprehensive list of context-specific words, including common phrases, predictable patterns, and organization-related terms, is maintained and actively used in password validation processes to preclude their use in password creation. This ensures that these terms are systematically blocked from being set as passwords. | | ✓ | ✓ | 521 |
 
 ## V1.3 Session Management Architecture
 
